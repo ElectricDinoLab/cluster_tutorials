@@ -40,7 +40,7 @@
 # -- BEGIN PRE-USER --
 #Name of experiment whose data you want to access 
 #EXPERIMENT=${EXPERIMENT:?"Experiment not provided"}
-EXPERIMENT=Put name of experiment
+EXPERIMENT= #Put name of experiment
 source /etc/biac_sge.sh
 
 EXPERIMENT=`findexp $EXPERIMENT`
