@@ -55,12 +55,6 @@ echo "----JOB [$JOB_NAME.$JOB_ID] START [`date`] on HOST [$HOSTNAME]----"
 # -- END PRE-USER --
 # **********************************************************
 
-# -- BEGIN USER DIRECTIVE --
-# Send notifications to the following address
-# Send notifications to the following address
-#$ -M lb271@duke.edu
-
-# -- END USER DIRECTIVE --
 
 # -- BEGIN USER SCRIPT --
 # User script goes here-
